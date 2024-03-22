@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(88deg, #71b7e6, #9b59b6 );
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+}
+.user-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* .input-box{
+    width: calc(100% / 2 - 20px);
+} */
+/* .input{
+    height: 45px;
+    width: 100%;
+} */
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+}
+.details{
+    
+}
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(88deg, #71b7e6, #9b59b6 );
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+
+
+/* .eduvi-section{
+    margin-top: 200px;
+}
+.header{
+    margin-top: 105px;
+}
+.eduvi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eduvi__wrap{
+    margin-right: 87px;
+}
+.eduvi__content{
+    width: 355px;
+}
+.eduvi__title{
+    margin-bottom: 36px;
+    width: 355px;
+    color: rgb(10, 3, 60);
+    font-size: 40px;
+    line-height: 50px;
+} */
+/* .line-img{
+    Line
+    position: absolute;
+    width: 1px;
+    height: 641px;
+    left: 720px;
+    right: 719px;
+    top: 220px;
+    bottom: 219px;
+} */
+
+
