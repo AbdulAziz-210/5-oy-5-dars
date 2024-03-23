@@ -19,8 +19,8 @@ body{
     justify-content: center;
     /* background-color: #292929; */
     font-family: 'Open Sans', sans-serif;
-
-
+    
+    
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -39,6 +39,8 @@ body{
 }
 .wrap{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .hero{
     /* margin: auto; */
@@ -60,7 +62,7 @@ body{
     /* right: -278px; */
     /* top: 280px; */
     /* bottom: 161px; */
-
+    
     color: rgb(10, 3, 60);
     font-family: Metropolis;
     font-size: 40px;
@@ -89,25 +91,87 @@ body{
     /* margin: auto; */
 }
 
-.google-input{
+/* .google-input{
     width: 370px;
     font-size: medium;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid gray;
-}
+} */
 
 
 
 
 .field-group {
-    width: 600px;
+    margin-bottom: 200px;
+    /* width: 600px; */
     position: relative;
+    /* text-align: center; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
+form {
+    position: relative;
+    /* min-height: 490px; */
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+}
+.fields {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.input-field2 {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+label {
+    margin-bottom: 5px;
+    
+    /* Full name */
+    /* position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 801px;
+    right: -506px;
+    top: 363px;
+    bottom: -308px; */
+     
+    color: rgb(10, 3, 60);
+    /* font-family: Metropolis; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.input-field2 input {
+    margin-bottom: 20px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 221, 228);
+    border-radius: 7px;
+    
+    background: rgb(255, 255, 255);
+}
+.input3 {
+    margin-bottom: 0;
+}
+
+
+.details-person {
+    margin-top: 100px;
+}
+
 .input-field {
-    width: 100%;
+    width: 340px;
+    height: 50px;
     outline: 0;
-    border: 2px solid #999;
+    border: 2px solid #DEDDE4;
     border-radius: 7px;
     padding: 10px;
     padding-left: 60px;
@@ -120,15 +184,16 @@ body{
 }
 .icon {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 134px;
+    top: 5px;
+    margin: auto;
     /* width: 60px; */
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: seagreen;
-    font-size: 1.6em;
+    /* color: seagreen; */
+    /* font-size: 1.6em; */
 }
 
 .input-field:focus {
@@ -139,8 +204,19 @@ body{
     color: #fff;
 }
 
+.signup-text {
+    /* margin-top: 20px; */
+}
 
-
+.text-line {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    width: 20px;
+    height: 6px;
+    color: black;;
+}
 
 
 
